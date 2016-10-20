@@ -63,7 +63,7 @@ col {
   width: 100%;
 }
 
-.form-table label.selected {
+.form-table input[type='radio']:checked + label {
   background-color: #f4f4f4;
   outline: 3px solid #2a70b6;
 }
@@ -91,9 +91,9 @@ col {
   vertical-align: middle;
 }
 
-.form-table .points::after {
-  border-bottom: 2px solid #999;
-  content: '';
+.form-table .points:empty::after {
+  content: '_';
+  color: #999;
 }
 
 .form-table input {
@@ -101,7 +101,7 @@ col {
 }
 
 .form-table tfoot hr {
-  margin: 1.5vw 0 1vw 0;
+  margin: 1.5vw 0 2vw 0;
 }
 
 .form-table tfoot tr td {

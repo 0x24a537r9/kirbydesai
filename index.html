@@ -58,189 +58,239 @@
           <tbody>
             <tr><th colspan="6"><h2>Skin type</h2></th><th></th></tr>
             <tr>
-              <td><label>
-                <img class="image" src="skin-1.svg">
-                <div class="description">Always burns &amp; never tans</div>
-                <div><span class="point">1</span> point</div>
-                <input type="radio" name="skin" value="1"></input>
-              </label></td>
-              <td><label>
-                <img class="image" src="skin-2.svg">
-                <div class="description">Burns easily &amp; tans minimally</div>
-                <div><span class="point">2</span> points</div>
-                <input type="radio" name="skin" value="2"></input>
-              </label></td>
-              <td><label>
-                <img class="image" src="skin-3.svg">
-                <div class="description">Sometimes burns &amp; slowly tans</div>
-                <div><span class="point">3</span> points</div>
-                <input type="radio" name="skin" value="3"></input>
-              </label></td>
-              <td><label>
-                <img class="image" src="skin-4.svg">
-                <div class="description">Burns minimally &amp; usually tans</div>
-                <div><span class="point">4</span> points</div>
-                <input type="radio" name="skin" value="4"></input>
-              </label></td>
-              <td><label>
-                <img class="image" src="skin-5.svg">
-                <div class="description">Rarely burns &amp; tans well</div>
-                <div><span class="point">5</span> points</div>
-                <input type="radio" name="skin" value="5"></input>
-              </label></td>
-              <td><label>
-                <img class="image" src="skin-6.svg">
-                <div class="description">Never burns &amp; always tans</div>
-                <div><span class="point">6</span> points</div>
-                <input type="radio" name="skin" value="6"></input>
-              </label></td>
-              <td class="skin-points points">?</td>
+              <td>
+                <input type="radio" id="skin-1" name="skin" value="1"></input>
+                <label for="skin-1">
+                  <img class="image" src="skin-1.svg">
+                  <div class="description">Always burns &amp; never tans</div>
+                  <div><span class="point">1</span> point</div>
+                </label>
+              </td>
+              <td>
+                <input type="radio" id="skin-2" name="skin" value="2"></input>
+                <label for="skin-2">
+                  <img class="image" src="skin-2.svg">
+                  <div class="description">Burns easily &amp; tans minimally</div>
+                  <div><span class="point">2</span> points</div>
+                </label>
+              </td>
+              <td>
+                <input type="radio" id="skin-3" name="skin" value="3"></input>
+                <label for="skin-3">
+                  <img class="image" src="skin-3.svg">
+                  <div class="description">Sometimes burns &amp; slowly tans</div>
+                  <div><span class="point">3</span> points</div>
+                </label>
+              </td>
+              <td>
+                <input type="radio" id="skin-4" name="skin" value="4"></input>
+                <label for="skin-4">
+                  <img class="image" src="skin-4.svg">
+                  <div class="description">Burns minimally &amp; usually tans</div>
+                  <div><span class="point">4</span> points</div>
+                </label>
+              </td>
+              <td>
+                <input type="radio" id="skin-5" name="skin" value="5"></input>
+                <label for="skin-5">
+                  <img class="image" src="skin-5.svg">
+                  <div class="description">Rarely burns &amp; tans well</div>
+                  <div><span class="point">5</span> points</div>
+                </label>
+              </td>
+              <td>
+                <input type="radio" id="skin-6" name="skin" value="6"></input>
+                <label for="skin-6">
+                  <img class="image" src="skin-6.svg">
+                  <div class="description">Never burns &amp; always tans</div>
+                  <div><span class="point">6</span> points</div>
+                </label>
+              </td>
+              <td class="skin-points points"></td>
             </tr>
             <tr><th colspan="6"><h2>Location</h2></th><th></th></tr>
             <tr>
-              <td><label>
-                <img class="image" src="location-1.svg">
-                <div class="description">Head / neck / face</div>
-                <div><span class="point">1</span> point</div>
-                <input type="radio" name="location" value="1"></input>
-              </label></td>
-              <td><label>
-                <img class="image" src="location-2.svg">
-                <div class="description">Upper trunk / shoulder</div>
-                <div><span class="point">2</span> points</div>
-                <input type="radio" name="location" value="2"></input>
-              </label></td>
-              <td><label>
-                <img class="image" src="location-3.svg">
-                <div class="description">Lower trunk / upper leg</div>
-                <div><span class="point">3</span> points</div>
-                <input type="radio" name="location" value="3"></input>
-              </label></td>
-              <td><label>
-                <img class="image" src="location-4.svg">
-                <div class="description">Lower arm / leg</div>
-                <div><span class="point">4</span> points</div>
-                <input type="radio" name="location" value="4"></input>
-              </label></td>
-              <td><label>
-                <img class="image" src="location-5.svg">
-                <div class="description">Wrist / hand / ankle / foot</div>
-                <div><span class="point">5</span> points</div>
-                <input type="radio" name="location" value="5"></input>
-              </label></td>
+              <td>
+                <input type="radio" id="location-1" name="location" value="1"></input>
+                <label for="location-1">
+                  <img class="image" src="location-1.svg">
+                  <div class="description">Head / neck / face</div>
+                  <div><span class="point">1</span> point</div>
+                </label>
+              </td>
+              <td>
+                <input type="radio" id="location-2" name="location" value="2"></input>
+                <label for="location-2">
+                  <img class="image" src="location-2.svg">
+                  <div class="description">Upper trunk / shoulder</div>
+                  <div><span class="point">2</span> points</div>
+                </label>
+              </td>
+              <td>
+                <input type="radio" id="location-3" name="location" value="3"></input>
+                <label for="location-3">
+                  <img class="image" src="location-3.svg">
+                  <div class="description">Lower trunk / upper leg</div>
+                  <div><span class="point">3</span> points</div>
+                </label>
+              </td>
+              <td>
+                <input type="radio" id="location-4" name="location" value="4"></input>
+                <label for="location-4">
+                  <img class="image" src="location-4.svg">
+                  <div class="description">Lower arm / leg</div>
+                  <div><span class="point">4</span> points</div>
+                </label>
+              </td>
+              <td>
+                <input type="radio" id="location-5" name="location" value="5"></input>
+                <label for="location-5">
+                  <img class="image" src="location-5.svg">
+                  <div class="description">Wrist / hand / ankle / foot</div>
+                  <div><span class="point">5</span> points</div>
+                </label>
+              </td>
               <td class="empty"></td>
-              <td class="location-points points">?</td>
+              <td class="location-points points"></td>
             </tr>
             <tr><th colspan="6"><h2>Amount of ink</h2></th><th></th></tr>
             <tr>
-              <td><label>
-                <img class="image" src="ink-1.svg">
-                <div class="description">Amateur</div>
-                <div><span class="point">1</span> point</div>
-                <input type="radio" name="ink" value="1"></input>
-              </label></td>
-              <td><label>
-                <img class="image" src="ink-2.svg">
-                <div class="description">Minimal</div>
-                <div><span class="point">2</span> points</div>
-                <input type="radio" name="ink" value="2"></input>
-              </label></td>
-              <td><label>
-                <img class="image" src="ink-3.svg">
-                <div class="description">Moderate</div>
-                <div><span class="point">3</span> points</div>
-                <input type="radio" name="ink" value="3"></input>
-              </label></td>
-              <td><label>
-                <img class="image" src="ink-4.svg">
-                <div class="description">Significant</div>
-                <div><span class="point">4</span> points</div>
-                <input type="radio" name="ink" value="4"></input>
-              </label></td>
+              <td>
+                <input type="radio" id="ink-1" name="ink" value="1"></input>
+                <label for="ink-1">
+                  <img class="image" src="ink-1.svg">
+                  <div class="description">Amateur</div>
+                  <div><span class="point">1</span> point</div>
+                </label>
+              </td>
+              <td>
+                <input type="radio" id="ink-2" name="ink" value="2"></input>
+                <label for="ink-2">
+                  <img class="image" src="ink-2.svg">
+                  <div class="description">Minimal</div>
+                  <div><span class="point">2</span> points</div>
+                </label>
+              </td>
+              <td>
+                <input type="radio" id="ink-3" name="ink" value="3"></input>
+                <label for="ink-3">
+                  <img class="image" src="ink-3.svg">
+                  <div class="description">Moderate</div>
+                  <div><span class="point">3</span> points</div>
+                </label>
+              </td>
+              <td>
+                <input type="radio" id="ink-4" name="ink" value="4"></input>
+                <label for="ink-4">
+                  <img class="image" src="ink-4.svg">
+                  <div class="description">Significant</div>
+                  <div><span class="point">4</span> points</div>
+                </label>
+              </td>
               <td class="empty" colspan="2"></td>
-              <td class="ink-points points">?</td>
+              <td class="ink-points points"></td>
             </tr>
             <tr><th colspan="6"><h2>Layering</h2></th><th></th></tr>
             <tr>
-              <td><label>
-                <img class="image" src="layering-1.svg">
-                <div class="description">No</div>
-                <div><span class="point">0</span> points</div>
-                <input type="radio" name="layering" value="0"></input>
-              </label></td>
-              <td><label>
-                <img class="image" src="layering-2.svg">
-                <div class="description">Yes</div>
-                <div><span class="point">2</span> points</div>
-                <input type="radio" name="layering" value="2"></input>
-              </label></td>
+              <td>
+                <input type="radio" id="layering-1" name="layering" value="0"></input>
+                <label for="layering-1">
+                  <img class="image" src="layering-1.svg">
+                  <div class="description">No</div>
+                  <div><span class="point">0</span> points</div>
+                </label>
+              </td>
+              <td>
+                <input type="radio" id="layering-2" name="layering" value="2"></input>
+                <label for="layering-2">
+                  <img class="image" src="layering-2.svg">
+                  <div class="description">Yes</div>
+                  <div><span class="point">2</span> points</div>
+                </label>
+              </td>
               <td class="empty" colspan="4"></td>
-              <td class="layering-points points">?</td>
+              <td class="layering-points points"></td>
             </tr>
             <tr><th colspan="6"><h2>Scarring &amp; tissue changes</h2></th><th></th></tr>
             <tr>
-              <td><label>
-                <img class="image" src="scarring-1.svg">
-                <div class="description">No scar</div>
-                <div><span class="point">0</span> points</div>
-                <input type="radio" name="scarring" value="0"></input>
-              </label></td>
-              <td><label>
-                <img class="image" src="scarring-2.svg">
-                <div class="description">Minimal scarring</div>
-                <div><span class="point">1</span> point</div>
-                <input type="radio" name="scarring" value="1"></input>
-              </label></td>
-              <td><label>
-                <img class="image" src="scarring-3.svg">
-                <div class="description">Moderate scarring</div>
-                <div><span class="point">3</span> points</div>
-                <input type="radio" name="scarring" value="3"></input>
-              </label></td>
-              <td><label>
-                <img class="image" src="scarring-4.svg">
-                <div class="description">Significant scarring</div>
-                <div><span class="point">5</span> points</div>
-                <input type="radio" name="scarring" value="5"></input>
-              </label></td>
+              <td>
+                <input type="radio" id="scarring-1" name="scarring" value="0"></input>
+                <label for="scarring-1">
+                  <img class="image" src="scarring-1.svg">
+                  <div class="description">No scar</div>
+                  <div><span class="point">0</span> points</div>
+                </label>
+              </td>
+              <td>
+                <input type="radio" id="scarring-2" name="scarring" value="1"></input>
+                <label for="scarring-2">
+                  <img class="image" src="scarring-2.svg">
+                  <div class="description">Minimal scarring</div>
+                  <div><span class="point">1</span> point</div>
+                </label>
+              </td>
+              <td>
+                <input type="radio" id="scarring-3" name="scarring" value="3"></input>
+                <label for="scarring-3">
+                  <img class="image" src="scarring-3.svg">
+                  <div class="description">Moderate scarring</div>
+                  <div><span class="point">3</span> points</div>
+                </label>
+              </td>
+              <td>
+                <input type="radio" id="scarring-4" name="scarring" value="5"></input>
+                <label for="scarring-4">
+                  <img class="image" src="scarring-4.svg">
+                  <div class="description">Significant scarring</div>
+                  <div><span class="point">5</span> points</div>
+                </label>
+              </td>
               <td class="empty" colspan="2"></td>
-              <td class="scarring-points points">?</td>
+              <td class="scarring-points points"></td>
             </tr>
             <tr><th colspan="6"><h2>Colors</h2></th><th></th></tr>
             <tr>
-              <td><label>
-                <img class="image" src="colors-1.svg">
-                <div class="description">Black only</div>
-                <div><span class="point">1</span> point</div>
-                <input type="radio" name="colors" value="1"></input>
-              </label></td>
-              <td><label>
-                <img class="image" src="colors-2.svg">
-                <div class="description">Mostly black w/ some red</div>
-                <div><span class="point">2</span> points</div>
-                <input type="radio" name="colors" value="2"></input>
-              </label></td>
-              <td><label>
-                <img class="image" src="colors-3.svg">
-                <div class="description">Mostly black &amp; red w/ other colors</div>
-                <div><span class="point">3</span> points</div>
-                <input type="radio" name="colors" value="3"></input>
-              </label></td>
-              <td><label>
-                <img class="image" src="colors-4.svg">
-                <div class="description">Multiple colors</div>
-                <div><span class="point">4</span> points</div>
-                <input type="radio" name="colors" value="4"></input>
-              </label></td>
+              <td>
+                <input type="radio" id="colors-1" name="colors" value="1"></input>
+                <label for="colors-1">
+                  <img class="image" src="colors-1.svg">
+                  <div class="description">Black only</div>
+                  <div><span class="point">1</span> point</div>
+                </label>
+              </td>
+              <td>
+                <input type="radio" id="colors-2" name="colors" value="2"></input>
+                <label for="colors-2">
+                  <img class="image" src="colors-2.svg">
+                  <div class="description">Mostly black w/ some red</div>
+                  <div><span class="point">2</span> points</div>
+                </label>
+              </td>
+              <td>
+                <input type="radio" id="colors-3" name="colors" value="3"></input>
+                <label for="colors-3">
+                  <img class="image" src="colors-3.svg">
+                  <div class="description">Mostly black &amp; red w/ other colors</div>
+                  <div><span class="point">3</span> points</div>
+                </label>
+              </td>
+              <td>
+                <input type="radio" id="colors-4" name="colors" value="4"></input>
+                <label for="colors-4">
+                  <img class="image" src="colors-4.svg">
+                  <div class="description">Multiple colors</div>
+                  <div><span class="point">4</span> points</div>
+                </label>
+              </td>
               <td class="empty" colspan="2"></td>
-              <td class="colors-points points">?</td>
+              <td class="colors-points points"></td>
             </tr>
           </tbody>
           <tfoot>
             <tr><td colspan="7"><hr></td></tr>
             <tr>
               <td colspan="6"><h1>Estimated number of treatments:</h1></td>
-              <td class="total-points points">?</td>
+              <td class="total-points points"></td>
             </tr>
           </tfoot>
         </table>
