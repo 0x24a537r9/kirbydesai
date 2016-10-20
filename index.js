@@ -5,10 +5,11 @@ $(function() {
   form = document.forms[0];
 
   $('input').change(onChange);
+  onChange();
 });
 
 
-function onChange(e) {
+function onChange() {
   var scale = {};
   var field_count = 0;
   for (var i = 0; i < fields.length; ++i) {
