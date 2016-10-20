@@ -20,7 +20,9 @@ function onChange(e) {
   }
   
   var total_points = 0;
+  $('input[type="radio"]').closest('label').removeClass('selected');
   for (var field in scale) {
+    $('input[name="' + field + '"][value="' + scale[field] + '"]').closest('label').addClass('selected');
     $('.' + field + '-points').text(scale[field]);
     total_points += parseInt(scale[field]);
   }

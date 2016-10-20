@@ -16,7 +16,6 @@ h1 {
   font-size: 3.2vw;
   font-weight: bold;
   text-align: left;
-  margin-bottom: 1.8vw;
 }
 
 h2 {
@@ -33,6 +32,10 @@ h2 {
   margin: 4vw;
   padding: 5vw;
   background-color: #fff;
+}
+
+.title {
+  margin-bottom: 1.8vw;
 }
 
 col {
@@ -53,10 +56,16 @@ col {
 .form-table label {
   border: 1px solid #ddd;
   box-sizing: border-box;
+  cursor: pointer;
   display: block;
   height: 100%;
   padding: 1.5vw;
   width: 100%;
+}
+
+.form-table label.selected {
+  background-color: #f4f4f4;
+  outline: 3px solid #2a70b6;
 }
 
 .form-table label:hover {
@@ -77,14 +86,22 @@ col {
   margin: .5vw 0;
 }
 
-.form-table .point {
-  display: inline-block;
-  width: 1.3vw;
-}
-
 .form-table .points {
   font-size: 6.4vw;
   vertical-align: middle;
+}
+
+.form-table .points::after {
+  border-bottom: 2px solid #999;
+  content: '';
+}
+
+.form-table input {
+  display: none;
+}
+
+.form-table tfoot hr {
+  margin: 1.5vw 0 1vw 0;
 }
 
 .form-table tfoot tr td {
