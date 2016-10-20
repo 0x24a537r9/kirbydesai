@@ -4,6 +4,20 @@ html {
   font-size: 1.6vw;
 }
 
+a:link,
+a:hover {
+  color: #2a70b6;
+  text-decoration: none;
+}
+
+a:active {
+  color: #11579D;
+}
+
+a:visited {
+  color: #003D83;
+}
+
 h1,
 .point,
 .points {
@@ -82,8 +96,9 @@ col {
 
 .form-table .description {
   font-size: 1.3vw;
-  min-height: 3.9vw;
+  min-height: 4.875vw;
   margin: .5vw 0;
+  line-height: 125%;
 }
 
 .form-table .points {
@@ -106,4 +121,11 @@ col {
 
 .form-table tfoot tr td {
   vertical-align: middle;
+}
+
+footer {
+  font-size: 1.3vw;
+  color: #888;
+  margin: 1vw 10vw 3vw 10vw;
+  line-height: 125%;
 }
