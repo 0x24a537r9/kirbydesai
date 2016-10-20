@@ -5,11 +5,18 @@ $(function() {
   form = document.forms[0];
 
   $('input').change(onChange);
-  onChange();
+  render(true);
 });
 
 
-function onChange() {
+function onChange(e) {
+  if (ga != null) {
+    ga('send', 'event', 'input', 'click', e.target.name);
+  }
+  render(false);
+}
+
+function render(isOnLoad) {
   var scale = {};
   var field_count = 0;
   for (var i = 0; i < fields.length; ++i) {
@@ -28,5 +35,8 @@ function onChange() {
 
   if (field_count == fields.length) {
     $('.total-points').text(total_points);
+    if (!isOnLoad && ga != null) {
+      ga('send', 'event', 'input', 'compute', 'score');
+    }
   }
 }
